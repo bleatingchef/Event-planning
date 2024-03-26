@@ -12,7 +12,7 @@ const Contact = () => {
     e.preventDefault();
     await axios
       .post(
-        "http://localhost:4000/api/message/send",
+        "https://event-planning-delta.vercel.app/api/message/send",
         {
           name,
           email,
